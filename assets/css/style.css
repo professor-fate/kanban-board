@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+background-color: orangered;
+color:white;
+padding: 2rem;
+border-bottom: 4px red solid;
+}
+footer{
+    background-color: orangered;
+    color:white;
+    padding: 1rem 2rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    border-top: 4px red solid;
+}
+main {
+    margin: 1% 4%;
+}
+main section {
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: .5rem;
+}
+main section article {
+    display: flex;
+    flex-wrap: wrap;
+    margin: .5rem;
+    border: 2px solid black;
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: white;
+    font-size: 1.25rem;
+}
+main section button {
+    margin: .5rem 1rem;
+    border: none;
+    background-color: lightgray;
+    font-size: 1.5rem;
+}
